@@ -19,5 +19,20 @@ public class TiposeVariaveis {
 		double salario = 1275.33;
 
 		System.out.println(pi);
+
+
+		//variaveis constantes
+		// por convenção, essas varivaies são feitas em CAIXA ALTA, ex:
+		final String nome = "Lucas";
+
+		System.out.println(nome);
+		// nome = "Iarley"; dará um erro, error: cannot assign a value to final variable nome
+		System.out.println(nome);
+
+
 		
 	}
+
+
+
+}
