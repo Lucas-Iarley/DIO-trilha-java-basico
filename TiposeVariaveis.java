@@ -9,10 +9,15 @@ public class TiposeVariaveis {
 		long - 8 bytes de memoria
 
 		o JDK sempre tenta converter para int dos dados de 2 ou menos de bytes
-		
 
 	*/
-		System.out.println("olá");
+		byte idade = 26;
+		short ano = 2025;
+		int cep = 21070333;
+		long cpf = 987632109;
+		float pi = 3.14F;
+		double salario = 1275.33;
+
+		System.out.println(pi);
 		
 	}
-}
